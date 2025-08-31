@@ -8,7 +8,7 @@ const OurStory = () => {
       <Navigation />
       <main>
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-hero">
+        <section className="py-20 bg-pink-200">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center space-y-8">
               <h1 className="font-dream-avenue text-5xl sm:text-6xl font-medium text-primary">
@@ -36,9 +36,14 @@ const OurStory = () => {
                       The Vision Behind Slō muse
                     </h3>
                     <p className="font-inter text-lg text-foreground/80 leading-relaxed">
-                      Founded with a deep belief that comfort and consciousness can coexist, 
-                      Slō muse was born from a desire to create loungewear that honors both 
-                      the wearer and the planet. Our founder envisioned a brand where every 
+                      Slō: Derived from "slow," symbolizing relaxation, mindfulness, or a slower pace of life. Reflects calmness, tranquility, and a focus on comfort.
+                    </p>
+                    <p className="font-inter text-lg text-foreground/80 leading-relaxed">
+                    Muse: Represents inspiration, creativity, or something that sparks ideas and beauty.
+                    </p>
+                    <p className="font-inter text-lg text-foreground/80 leading-relaxed">
+                    Slō Muse: A loungewear brand that celebrates calmness, mindfulness, and the beauty of slowing down. Designed for the modern woman who values comfort without compromising on style. Every piece is crafted to help you unwind, recharge, and embrace tranquility.
+                      Our founder envisioned a brand where every 
                       piece tells a story of mindful living and sustainable practices.
                     </p>
                     <p className="font-inter text-lg text-foreground/80 leading-relaxed">
@@ -47,7 +52,13 @@ const OurStory = () => {
                       environmental responsibility.
                     </p>
                   </div>
-                  <div className="aspect-[4/5] rounded-2xl bg-gradient-hero"></div>
+                  <div className="">
+                    <img
+                      src="/src/assets/couple2.jpeg"
+                      alt="Founder of Slō muse"
+                      className="w-full h-auto rounded-2xl shadow-medium"
+                    />
+                  </div>
                 </div>
               </div>
 

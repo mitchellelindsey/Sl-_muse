@@ -1,19 +1,22 @@
 import { Button } from "@/components/ui/button";
-import productImage from "@/assets/product-collection.jpg";
 
 const ProductShowcase = () => {
 const products = [
     {
-      name: "morning dew print"
+      name: "Morning dew print",
+      image: "/src/assets/morningdewgroup.jpeg"
     },
     {
-      name: "wildflower print"
+      name: "Wildflower print",
+      image: "/src/assets/wildflowergroup.jpeg"
     },
     {
-      name: "lucky charm print"
+      name: "Lucky charm print",
+      image: "/src/assets/luckycharmgroup.jpeg"
     },
     {
-      name: "Slō couple set"
+      name: "Slō couple set",
+      image: "/src/assets/couple1.jpeg"
     }
   ];
 
@@ -27,7 +30,7 @@ const products = [
           </h2>
           <p className="font-inter text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             Each piece is thoughtfully crafted from sustainable materials, 
-            designed to move with you through your daily rituals of rest and reflection.
+            Designed with intention, our loungewear pieces blend effortless style with ultimate comfort, to make you feel at home - in your skin, in your space, and in your life.
           </p>
         </div>
 
@@ -44,7 +47,7 @@ const products = [
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-medium group-hover:shadow-soft">
                 <img
-                  src={productImage}
+                  src={product.image}
                   alt={`${product.name} collection`}
                   className="w-full h-full object-cover"
                 />

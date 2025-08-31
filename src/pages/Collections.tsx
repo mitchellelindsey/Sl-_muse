@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useCart } from "@/contexts/CartContext";
-import productImage from "@/assets/product-collection.jpg";
+// import productImage from "@/assets/product-collection.jpg";
 
 const Collections = () => {
   const { addItem } = useCart();
@@ -10,32 +10,32 @@ const Collections = () => {
     {
       name: "morning dew print",
       items: [
-        { name: "special set", price: "$89", image: productImage },
-        { name: "Debbie set", price: "$92", image: productImage },
-        { name: "Cassie set", price: "$95", image: productImage },
+        { name: "special set", price: "$89", image: "/src/assets/specialset.jpeg" },
+        { name: "Debbie set", price: "$92", image: "/src/assets/debbieset.jpeg" },
+        { name: "Cassie set", price: "$95", image: "/src/assets/cassieset.jpeg" }
       ]
     },
     {
       name: "wildflower print",
       items: [
-        { name: "gold set", price: "$89", image: productImage },
-        { name: "belle set", price: "$92", image: productImage },
-        { name: "chi set", price: "$95", image: productImage },
+        { name: "gold set", price: "$89", image: "/src/assets/goldset.jpeg" },
+        { name: "belle set", price: "$92", image: "/src/assets/belleset.jpeg" },
+        { name: "chi set", price: "$95", image: "/src/assets/chiset.jpeg" },
       ]
     },
     {
       name: "lucky charm print",
       items: [
-        { name: "queen set", price: "$89", image: productImage },
-        { name: "luna set", price: "$92", image: productImage },
-        { name: "sunflower set", price: "$95", image: productImage },
+        { name: "queen set", price: "$89", image: "/src/assets/queenset.jpeg" },
+        { name: "luna set", price: "$92", image: "/src/assets/lunaset.jpeg" },
+        { name: "sunflower set", price: "$95", image: "/src/assets/sunflowerset.jpeg" },
       ]
     },
     {
       name: "Slō couple set",
       items: [
-        { name: "Slō men set", price: "$119", image: productImage },
-        { name: "Slō women set", price: "$119", image: productImage },
+        { name: "Slō men set", price: "$119", image: "/src/assets/mensethalf.jpeg" },
+        { name: "Slō women set", price: "$119", image: "/src/assets/womenset.jpeg" },
       ]
     }
   ];

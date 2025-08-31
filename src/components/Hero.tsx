@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-image.jpg";
+// import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   return (
@@ -7,11 +7,11 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroImage}
+          src="/src/assets/morningdewgroup.jpeg"
           alt="Serene woman in luxurious loungewear by window - Slō muse lifestyle"
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/80 via-background/60 to-transparent"></div>
+        <div className="absolute inset-0 bg-background/45"></div>
       </div>
 
       {/* Content */}
@@ -21,7 +21,7 @@ const Hero = () => {
             {/* Brand Tagline */}
             <div className="space-y-4">
               <p className="font-crimson text-lg text-muted-foreground italic tracking-wide">
-                Mindful moments, conscious comfort
+                Breathe,   Lounge,   Be.
               </p>
               <h1 className="font-playfair text-5xl sm:text-6xl lg:text-7xl font-medium text-primary leading-tight">
                 Embrace
@@ -32,8 +32,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="font-inter text-lg text-foreground/80 leading-relaxed max-w-lg">
-              Thoughtfully designed loungewear for the mindful modern woman. 
-              Where comfort meets consciousness, and style embraces sustainability.
+              A loungewear brand that celebrates calmness, mindfulness, and the beauty of slowing down. Designed for the modern woman who values comfort without compromising on style. Every piece is crafted to help you unwind, recharge, and embrace tranquility.
             </p>
 
             {/* CTA Buttons */}
